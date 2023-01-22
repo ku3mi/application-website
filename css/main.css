@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 73px;
+  border-bottom: 1px solid #e5e9f2;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header-container {
+  height: 73px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.nav {
+   margin-top: -8px;
+   
+}
+
+nav > a {
+  color: #18191f;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 32px;
+  font-size: 14px;
+  
+  
+}
+nav > a:hover {
+  text-decoration: underline;
+  color: #8C30F5;
+}
+nav > a:last-child{
+   margin-right:0px;
+}
+
+.appstore {
+  margin-left: auto;
+}
+.appstore > a:first-child {
+  margin-right: 12px;
+}
+
+/* Main */
+.main-container {
+  padding: 197px 0;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.main-content{
+width: 540px;
+
+}
+h1 {
+  margin:0 0 16px 0;
+  color: #18191f;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.36;
+}
+
+.main-content p {
+   color:#18191F;
+   font-size:18px;
+   line-height: 1.78;
+   margin:0 0 32px 0;
+
+}
+.button {
+   text-decoration: none;
+   color:#FFFFFF;
+   font-size: 20px;
+   font-weight: 700;
+   background: #8C30F5;
+   padding: 16px 35px;
+   border-radius: 8px;
+}
+.button:hover{
+ opacity: 0.7;
+}
+
+/* footer */
+footer {
+   background: #0B0D17;
+}
+.footer-container {
+   height: 72px;
+   display: flex;
+   justify-content: space-between;
+   align-items:center ;
+}
+
+.info {
+   color: #D9DBE1;
+   font-size: 14px;
+   font-weight: 400;
+}
+.social > a {
+   margin-right: 16px;
+}
+.social > a:last-child {
+   margin-right:0;
+}
